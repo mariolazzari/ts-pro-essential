@@ -13,7 +13,7 @@ acceptsObj({
 document.addEventListener(
   // Autocomplete this string!
   "",
-  (event) => {
+  event => {
     console.log(event);
-  },
+  }
 );
